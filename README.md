@@ -12,15 +12,20 @@ The primary solution for this outcome is obtained by using data from the employe
 • SELECT the columns employee name, department name, and salary from the EMP table. For readability the columns are renamed EMPLOYEE_NAME, DEPARTMENT and SALARY, respectively.
 
 • Perform an inner join with the DEPT table and match the two tables by their department number columns.
+
 • Use the WHERE clause to filter for salaries between 1000 and 2000.
+
 The expected result is a table with three columns containing the employee names, the department names where each employee works and the salary of each of those employees.
+
 
 
 An alternative solution to the above outcome is given by using only the employee table. Instead of the department name, the department number is obtained:
 
 • SELECT the columns employee name, department number, and salary from the EMP table. For readability the columns are renamed EMPLOYEE_NAME,
 DEPARTMENT and SALARY, respectively.
+
 • Use the WHERE clause to filter the salaries between 1000 and 2000
+
 The expected result is a table with three columns containing the employee names, the department numbers where each employee works and the salary of each of those employees.
 
 
