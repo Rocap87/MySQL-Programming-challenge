@@ -7,7 +7,7 @@ To run the script assignment3.sql, “mysql” needs to be executed and the data
 
 # OUTCOME 1: List all Employees whose salary is between 1,000 AND 2,000. Show all the Employee Name, Department and Salary.
 
-#The primary solution for this outcome is obtained by using data from the employee table and the department table:
+# The primary solution for this outcome is obtained by using data from the employee table and the department table:
 
 • SELECT the columns employee name, department name, and salary from the EMP table. For readability the columns are renamed EMPLOYEE_NAME, DEPARTMENT and SALARY, respectively.
 
