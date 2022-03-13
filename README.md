@@ -5,7 +5,7 @@ The following instructions describe how to obtain the outcomes required by the a
 To run the script assignment3.sql, “mysql” needs to be executed and the database COMPANY1 is required.
 
 
-OUTCOME 1: List all Employees whose salary is between 1,000 AND 2,000. Show all the Employee Name, Department and Salary.
+# OUTCOME 1: List all Employees whose salary is between 1,000 AND 2,000. Show all the Employee Name, Department and Salary.
 
 The primary solution for this outcome is obtained by using data from the employee table and the department table:
 
@@ -23,7 +23,7 @@ DEPARTMENT and SALARY, respectively.
 The expected result is a table with three columns containing the employee names, the department numbers where each employee works and the salary of each of those employees.
 
 
-OUTCOME 2: Count the number of people in department 30 who receive a salary and the number of people who receive a commission.
+# OUTCOME 2: Count the number of people in department 30 who receive a salary and the number of people who receive a commission.
 
 The solution of this outcome is obtained by filtering in the employee table with the following script:
 
@@ -32,7 +32,7 @@ The solution of this outcome is obtained by filtering in the employee table with
 The result is a table with two columns and one row displaying the number of employees in department 30 receiving a salary and those receiving a commission.
 
 
-OUTCOME 3: Find the name and salary of employees in Dallas.
+# OUTCOME 3: Find the name and salary of employees in Dallas.
 
 The primary solution to this outcome is obtained by selecting columns from the employee and department table:
 
@@ -49,7 +49,7 @@ The same outcome can be obtained with an alternative approach taking advantage o
 • Use a WHERE clause to filter for department number 20.
 
 
-OUTCOME 4: List all departments that do not have any employees.
+# OUTCOME 4: List all departments that do not have any employees.
 
 The primary solution is obtained by performing a LEFT JOIN between the DEPT and the EMP table, and using an aggregate function:
 
@@ -70,7 +70,7 @@ The second alternative solution selects the name of the department that has no e
 • Use a WHERE clause filtering for the department number that is NOT IN the the department number column of the EMP table.
 
 
-OUTCOME 5: List all department number and average salary of each department. The solution is obtained by using a LEFT JOIN between department table and the employee table:
+# OUTCOME 5: List all department number and average salary of each department. The solution is obtained by using a LEFT JOIN between department table and the employee table:
 
 • SELECT the column department number from the department table.
 • Calculate the average of the salary column renamed as
